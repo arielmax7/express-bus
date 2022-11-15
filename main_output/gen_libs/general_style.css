@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	font-size: 18px;
+	color: #F00;
+}
+.ji {
+	font-size: 12px;
+	font-style: normal;
+	height: 20px;
+	width: 75px;
+	position: absolute;
+}
+.op {
+	height: 20px;
+	width: 100px;
+}
+body {
+	font-size: 10px;
+	font-style: normal;
+}

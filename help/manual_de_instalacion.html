@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ayuda Instalación | Express Bus</title>
+<link rel="shortcut icon" href="../main_output/favicon.ico">
+<link href="css/helpstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+    <h1>Ayuda Instalción de Express Bus Tickets</h1>
+    <h4>Contenido:</h4>
+    <ol>
+    <li><a href="#primeros_pasos">Primeros Pasos</a></li>
+    <li><a href="#vista_general">Pre Instalción</a></li>
+    <li><a href="#licencia">Licencia</a></li>
+    <li><a href="#base_de_datos">Base de Datos</a></li>
+    <li><a href="#empresa">Empresa</a></li>
+    <li><a href="#sistema">Sistema</a></li>
+    <li><a href="#finalizar">Finalizar</a></li>
+    <li><a href="#no_pude_instalar">No Pude instalar</a></li>
+    
+    </ol>
+    <br /><br /> 
+    <p>Bienvenido a Express Bus Tickets en este sencillo manual explicamos la instalción de Express Bus en su equipo local o servidor remoto en pocos pasos que explicamos a continuación presta mucha atensión:</p>
+    <a name="primeros_pasos"><h2>Primeros Pasos</h2></a>
+    <p>Lo primero que se debe de hacer para instalar Express Bus Tickets son los siguientes:
+    <br />
+    - Subir todos los archivos de la aplicación al servidor web, con soporte php5, y mysql.
+    <br />
+    - Pueden descomprimir el archivo zip, o subir el zip direcatamente al servidor, esto si su servidor permite descomprimir archivos zip, si no fuera así descomprimimos y subimos todos los archivos.<br />
+    - Poden subirlo Utilizando el C-panel de su hosting ó mediante un software de FTP como FileZilla, se recomienda subir a un directorio diferente, también pueden subirlo a la raiz del sitio pero esto no es recomendable ya que cualquiera podra ingresar facilmente, y estara disponible a cualquier persona que conosaca su dominio.<br />
+    - una vez copiado todos los archivo ingresamos a nuestro navegador e colocamos la dirección incluyendo el direcctorio donde copiaron la aplicación si todo esta bién nos aparecera el instalador de Epress Bus Tickets.  
+    </p>
+    
+    <a name="vista_general"><h2>Pre Instalación</h2></a>
+    &nbsp;&nbsp;<img src="images/instalacion.png" />
+    <br /><br />
+    <p><b>Paso 1:</b> La pre Instalación verifica si nuestro servidor cumple con los requerimientos minimos necesarios para el correcto funcionamiento del sistema, es importante leer esta información.  </p>
+    <p>Si todo esta correcto presionamos Siguiente >>, podemos volver a comprobar los pre requisitos de la instalación haciendo clic en comprobar.</p>
+    <a name="licencia"><h2>Licencia</h2></a>
+    &nbsp;&nbsp;<img src="images/licencia.png" />
+    <br /><br />
+    <p><b>Paso 2:</b> La licencia, indica el tipo de licencia, clausulas y condiciones que posee la utilización de este software es importante que lo leas si estas deacuerdo, y para continuar con la instalación hacemos clic en siguiente >>.</p>
+    <a name="base_de_datos"><h2>Base de Datos</h2></a>
+    &nbsp;&nbsp;<img src="images/base_de_datos.png" />
+    <br /><br />
+    <p><b>Paso 3:</b> Base de datos aquí debemos colocar la información para la base de datos que manejara Express Bus, estos datos te los da el provedor de hosting, es importante llenar correctamente esta información, se recomienda no utilizar espacios ni caracteres especiales.</p>
+    <p>Si todo esta correcto pasamos al sisguiente paso presionamos Siguiente >>.</p>
+    <a name="empresa"><h2>Empresa</h2></a>
+    &nbsp;&nbsp;<img src="images/empresa.png" />
+    <br /><br />
+    <p><b>Paso 4:</b> Si el paso anterior se realizo correctamente no muestra un mensaje indicandonos que la Base de datos fue creada con exito, el siguiente paso sera el Nombre de la Empresa aquí debemos colocar el nombre de la empresa, para continuar presionamos Siguiente >>.
+    <a name="sistema"><h2>Sistema</h2></a>
+    &nbsp;&nbsp;<img src="images/sistema.png" />
+    <br /><br />
+    <p><b>Paso 5:</b> en sistema tenemos que llenar todos los datos, colocar la información del super administrador, quien tendra el control total del sistema, este por lo general es el gerente general de la empresa, o una persona que se encargara del manejo principal del sistema.</p>
+    <p>En en campo moneda colocamos el código de la moneda que se utilizara según el estandar <a href="siglas_monedas.html" target="_blank">ISO 4217</a></p>
+    <p>La opción Configuración avanzada la utilizamos en caso de que no se pueda crear en archivo db_system.php en el direcctorio includes, si esto no efecto tendremos que asignar manualmente los permisos CHMOD esto en servidores linux. si desconoces esta opción dejala como esta.</p>
+    <p>Si por alguna razón no prosigue la instalción verifica lo siguiente.</p>
+     <p>Es importante que establesca permisos de escritura y lectura a los siguientes directorios:<br />
+    - includes (CHMOD 777) solo a la carpeta includes<br />
+    - main_output/templates_prints (CHMOD 777) solo a la carpeta  templates_prints<br />
+    - main_output/uploads (CHMOD 777) solo a la carpeta  uploads<br />
+    - main_output/gen_libs   (CHMOD 777) solo a la carpeta gen_libs <br />
+    - main_output/images_buses (CHMOD 777) solo a la carpeta images_buses <br />
+   </p>
+   <p>Puede utilizar el programa FileZilla</p>
+   &nbsp;&nbsp;<img src="images/file_zilla.png" />
+   <br /><br />
+   
+    <p>Si todo esta bién, Una Vez llenado tada la información hacemos clic en siguiente >>.</p>
+    <a name="finalizar"><h2>Finalizar</h2></a>
+    &nbsp;&nbsp;<img src="images/finalizar_instalación.png" />
+    <p>Esta es la parte final de la instalación si todo ha salido bién llegaremos a esta página, es improtante anotar la información del super administrador, el nombre de acceso y la contraseña, ya que con estos podremos ingresar al sistema, una vez finalizado se recomienda eliminar el directorio o carpeta llamada install, por razones de seguridad.</p>
+    <p>En la parte final tenemos dos opciones una es Acceder al sistema, y el otro es ingresar al Tutorial que nos muestra las distintas partes y funcionamiento de la aplicación.</p>
+    <p> si por alguna razón no pudiste instalar la aplicación a continuación explicamos las posibles fallas y como puedes solucionarlo.</p>
+    <a name="no_pude_instalar">
+    <h2>¿ No Pude Instalar ?</h2></a>
+    <h4>Posibles Causas:</h4>
+    <ul>
+    <li>Verifique que la información sea la correcta.</li>
+    <li>Repita los pasos fallidos, utilize la opción Atras de su navegador e intentelo nuevamente.</li>
+    <li>Utiliza un navegador actualizado de preferencia Mozilla fire fox.</li>
+    <li>Si estas utilizando Windows se recomienda utilizar el servidor Appserv 2.5.10.</li>
+    <li>verifique que se creo el archivo db_system.php ubicado en el siguiente direcctorio de raiz de su servidor, includes/db_system.php, si esto no fuera asi debera asignar manualmente los permisos de escritura a ese directorio, puede utilizar un programa de FTP como File Zilla.</li>
+    <li>No utilizae caracteres especiales ni espacios.</li>
+    <li>Es importante que establesca permisos de escritura y lectura a los siguientes direcctorios:
+    - includes.
+    - main_output/templates_prints (CHMOD 777) solo a la carpeta  templates_prints
+    - main_output/uploads (CHMOD 777) solo a la carpeta  uploads
+    - main_output/gen_libs   (CHMOD 777) solo a la carpeta gen_libs 
+    - main_output/images_buses (CHMOD 777) solo a la carpeta images_buses
+    </li>
+
+    
+    </ul>
+
+<p>Ejemplo en File Zilla</p>    
+&nbsp;&nbsp;<img src="images/file_zilla.png" />
+<br /><br />    
+    
+   
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end .content --></div>
+  <!-- end .container --></div>
+</body>
+</html>

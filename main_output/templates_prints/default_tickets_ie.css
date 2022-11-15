@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+/* Posisiones de los textos deacuerdo a la plantilla */
+#apDiv1 {
+	position:absolute;
+	left:279px;
+	top:62px;
+	width:82px;
+	height:21px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	left:372px;
+	top:62px;
+	width:72px;
+	height:21px;
+	z-index:2;
+}
+#apDiv3 {
+	position:absolute;
+	left:168px;
+	top:88px;
+	width:294px;
+	height:21px;
+	z-index:3;
+}
+#apDiv4 {
+	position:absolute;
+	left:12px;
+	top:110px;
+	width:330px;
+	height:20px;
+	z-index:4;
+}
+#apDiv5 {
+	position:absolute;
+	left:345px;
+	top:110px;
+	width:117px;
+	height:20px;
+	z-index:5;
+}
+#apDiv6 {
+	position:absolute;
+	left:13px;
+	top:132px;
+	width:373px;
+	height:24px;
+	z-index:6;
+}
+#apDiv7 {
+	position:absolute;
+	left:389px;
+	top:132px;
+	width:70px;
+	height:24px;
+	z-index:7;
+}
+#apDiv8 {
+	position:absolute;
+	left:47px;
+	top:165px;
+	width:56px;
+	height:19px;
+	z-index:8;
+}
+#apDiv9 {
+	position:absolute;
+	left:126px;
+	top:165px;
+	width:84px;
+	height:20px;
+	z-index:9;
+}
+#apDiv10 {
+	position:absolute;
+	left:228px;
+	top:165px;
+	width:85px;
+	height:20px;
+	z-index:10;
+}
+#apDiv11 {
+	position:absolute;
+	left:345px;
+	top:165px;
+	width:107px;
+	height:21px;
+	z-index:11;
+}
+#apDiv12 {
+	position:absolute;
+	left:68px;
+	top:186px;
+	width:24px;
+	height:21px;
+	z-index:12;
+}
+#apDiv13 {
+	position:absolute;
+	left:186px;
+	top:187px;
+	width:23px;
+	height:19px;
+	z-index:13;
+}
+#apDiv14 {
+	position:absolute;
+	left:288px;
+	top:187px;
+	width:22px;
+	height:19px;
+	z-index:14;
+}
+#apDiv15 {
+	position:absolute;
+	left:553px;
+	top:60px;
+	width:37px;
+	height:23px;
+	z-index:15;
+}
+#apDiv16 {
+	position:absolute;
+	left:553px;
+	top:92px;
+	width:40px;
+	height:20px;
+	z-index:16;
+}
+#apDiv17 {
+	position:absolute;
+	left:553px;
+	top:122px;
+	width:78px;
+	height:19px;
+	z-index:17;
+}
+#apDiv18 {
+	position:absolute;
+	left:554px;
+	top:156px;
+	width:56px;
+	height:19px;
+	z-index:18;
+}

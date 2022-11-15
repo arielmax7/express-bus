@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ayuda Gestor de Boletos | Express Bus</title>
+<link rel="shortcut icon" href="../main_output/favicon.ico">
+<link href="css/helpstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+    <h1>Ayuda Gestor de Boletos</h1>
+    <h4>Contenido:</h4>
+    <ol>
+    <li><a href="#vista_general">Vista General</a></li>
+    <li><a href="#barra_de_menus">Barra de Menús</a></li>
+    <li><a href="#barra_de_informacion_usuario">Barra de Información Usuario</a></li>
+    <li><a href="#barra_de_herramientas">Barra de Herramientas</a></li>
+    <li><a href="#barra_de_información_bus">Barra de Información Bus</a></li>
+    <li><a href="#barra_de_configuracion_bus">Barra de Configuración Bus</a></li>
+    <li><a href="#bus_interactivo">Bus Interactivo</a></li>
+    <li><a href="#informacion_de_asiento">Información de Asientos</a></li>
+    </ol>
+    <br /><br />
+    <a name="vista_general"><h2>Vista General</h2></a>
+    &nbsp;&nbsp;<img src="images/diagram_tickets.png" />
+    <br /><br />
+    <a name="barra_de_menus"><h2>Barra de Menús</h2></a>
+    &nbsp;&nbsp;<img src="images/barra_de_menus_1.png" />
+    <br /><br />
+    <p>La barra de menús nos permite tener un acceso direccto un sector del sistema, permite una mejor navegación por el sistema.</p>
+    <p>La barra de menús varia en base al tipo de usuario logeado (niveles), si ingresa el super admin tendra mayores opciones en la barra de menús, adiferencia de un  usuario de nivel bajo solo vera la barra de menús relacionado con el cargo que este ocupa.</p>
+    <a name="barra_de_informacion_usuario"><h2>Barra de Información Usuario</h2></a>
+    &nbsp;&nbsp;<img src="images/barra_de_inf_usuario.png" />
+    <br /><br />
+    <p>La barra de información usuario nos muestra la información del usuario Logeado, también nos permite tener acceso directo a mensajesprovenientes de otros usuarios del sistema, podemos finalizar la aplicación de forma segura haciendo clic en Finalizar.</p>
+    <a name="barra_de_herramientas"><h2>Barra de Herramientas</h2></a>
+    
+    &nbsp;&nbsp;<img src="images/barra_boletos.png"> <br /><br />
+<p>Esta el la barra de herramientas del gestor de boletos, cada botón  nos permite ejecutar una acción en concreto, a continuación explicamos el funcionamiento de cada botón.</p>
+   <h2><img src="images/actualizar.png" align="middle">&nbsp;&nbsp;Actualizar</h2>
+    
+    <br />
+<p>Este botón nos permite actualizar la página de forma manual. De todas formas el sistema se actualiza automaticamente. </p>
+    <p>Puede ser utilizado para refrescar el estado del bus, permitiendo visualizar el estado de los asientos.</p>
+     <h2><img src="images/confirmar.png" align="middle">&nbsp;&nbsp;Confirmar Reserva</h2>
+     <br />
+<p>Este botón nos permite confirmar una reserva de un asiento hecho anteriormente, al presionar el botón aprarece la ventana de confirmacion en la cual colocamos el numero de asiento a confirmar.</p>
+&nbsp;&nbsp;<img src="images/reservas.png" width="286" height="167">
+<br /><br />
+<p>El número de asiento debera estar en estado reservado (color verde). Una ves confirmado el asiento este cambiara su estado a vendido e imprimira su boleto.</p>  
+<h2><img src="images/cancelar_reserva.png" width="47" height="40" align="middle">&nbsp;&nbsp;Anular Reserva</h2>
+<br />
+<p>Este botón nos permite anular una reserva de un asiento hecho anteriormente, al presionar el botón aparece la ventana de confirmación en la cual colocamos el número de asiento.</p>
+&nbsp;&nbsp;<img src="images/reservas2.png" />
+<br /><br />
+<p>El número de asiento debe estar en estado reservado (color verde) una vez confirmado el asiento este cambiara su estado a libre.</p>
+
+<h2><img src="images/vaciar_asiento.png" align="middle" />&nbsp;&nbsp;Express Chat</h2>
+<p>Este botón nos permite abrir una venta para poder ingreasr al chat y tener una comunicacion con cualquier terminal en tiempo real.</p>
+&nbsp;&nbsp;<img src="images/liberar.png" />
+<br /><br />
+
+<h2><img src="images/generar_lista.png" align="middle" />&nbsp;&nbsp;Generar Lista</h2>
+<p>Este botón nos permite generar e imprimir una lista de todos los pasajeros que efectuaran el viaje,  una vez generado la lista podemos imprimirla.</p>
+<br />
+.&nbsp;&nbsp;<img src="images/imprimir_lista_clientes.png" />
+<br /><br />
+<p> podemos imprimir el número de copias que nesecitemos por regla de transito una copia devera ser entregada a transito, otra la tendra el conductor del bus y una quedara en la ofician o terminal.</p>
+<h2><img src="images/cerrar_bus.png" align="middle" />&nbsp;&nbsp;Cerrar Bus</h2>
+<p>Este botón nos permite cerrar toda operación en el bus, es empleado cuando se completa la plaza total o cuando esta partiendo de la terminal.</p>
+<p>Al presionar el botón aparece la ventana , en donde tendremos que colocar el número de identificación del Bus.</p>
+&nbsp;&nbsp;<img src="images/cerrar_bus_2.png" />
+<br /><br />
+<p>Una vez cerrado el bus no se podra efectuar ninguna operación en el (ventas,reservas,liberar asiento,etc).</p>
+<p>el bus podra ser reutilizado al día siguiente de la fecha de partida, esto solo en la terminal que efectuo el cierre otras terminales podran utilizar el bus normalmente de acuerdo al recorrido del bus.</p>
+<h2><img src="images/boton_cerrar_bus.png" align="middle" />&nbsp;&nbsp;Vaciar Bus</h2>
+<p>Este botón nos permite vaciar ó liberar todos los asientos del bus una vez este llego a su destino final, de esta forma el bus estara preparado para una nueva partida.</p>
+&nbsp;&nbsp;<img src="images/vaciar_bus.png" />
+<br /><br />
+<p>Se debe colocar el número de identificación del bus, solo las terminales autorizadas prodran realizar esta operación.</p>
+<a name="barra_de_información_bus"><h2>Barra de Información Bus</h2></a>
+&nbsp;&nbsp;<img src="images/barra_de_inf_bus.png" />
+<br /><br />
+<p>La barra de información del bus muestra, información del bus seleccionado actualmente por el usuario con los siguientes datos:</p>
+<p><b>Bus Elegido.-</b> muestra el número de identificación del Bus (no es la matrícula).</p>
+<p><b>Fecha Elegida.-</b> muestra la fecha de viaje del Bus esto varia en funcion a la terminal.</p>
+<p><b>Horario de Salida.-</b> muestra la hora de salida del Bus esto varia en funcion a la terminal.</p>
+<p><b>Clase.-</b> muestra el nivel de confort del Bus (cama, semi-cama, normal).</p>
+<p><b>Asientos.-</b> muestra el número de asientos totales que dispone el Bus.</p>
+<p><b>Destinos.-</b> muestra los destinos principales del Bus Generalmente en origen y destino.</p>
+<p><b>Lib Gen.-</b> muestra el modélo de distribución de asientos segun el estandar adoptado por el Bus por defecto Express Bus biene con una solo módulo de generación, es posible instalar más módulos esto en el gestor de isntalación, cada módulo debera ser creado deacuerdo al módelo del Bus y a la disposición de asientos y cantidad de asientos más información en la web del autor <a href="http://www.arielmax.com.ar">www.arielmax.com.ar</a>.</p>
+<p>Es muy importante verificar siempre esta barra de información, si omitimos esto podemos cometer serios errores en venta de boletos ya sea en fecha, horaios, o destinos.</p>
+<a name="barra_de_configuracion_bus"><h2>Barra de configuración Bus</h2></a>
+&nbsp;&nbsp;<img src="images/barra_comfiguracion_bus.png" />
+<br /><br />
+<p>La barra de configuración nos permite establecer parametros para el Bus estos parámetros son los siguientes:</p>
+<h2>Restablecer Asiento</h2>
+&nbsp;&nbsp;<img src="images/resetear_asiento.png" align="middle" />
+<br /><br />
+<p>Esta opción nos permite resetear un asiento que esta en estado procesando (color gris), si este fue ocacionado por el usuario, para otro usuario del sistema no tendra efecto.</p>
+<p> Es utilizado cuando por alguna razón sea virus, corte eléctrico, dejamos la ventana del formulario de venta al cliente abierta, el estado del asiento se coloca en procesando esto con la finalidad de que otras terminales no puedan vender el asiento hasta finalizar la venta ,esto para evitar duplicidad de asientos, el estado del asiento cambiara a un color gris indicando al resto de los usuarios que el asiento esta siendo vendido, mientras el usuario llena el formulario de venta, pero si el usuario por accidente cierra la ventana del formulario, o el equipo se apaga o cualquier otro caso, aunque ingrese en el sistema, el estado del asiento no cambiara provocando que nadie venda ese asiento.</p>
+<p>Para reestableser al estado original se debe colocar el numero de asiento en el cuadro de texto y presionar restablecer, seguidamente el asiento estara nuevamente disponible, utilizalo solo en caso de emergencia.</p>
+<h2>Reloj y Fecha</h2>
+&nbsp;&nbsp;<img src="images/hora_fecha.png" />
+<br /><br />
+<p>Este muestra un relog con la hora actual del sistema, también muestra la fecha actual correspondiente al día.</p>
+<h2>Seleccionar Hora de Salida</h2>
+&nbsp;&nbsp;<img src="images/selccionar_hora.png" />
+<br /><br />
+<p>Podemos seleccionar de la lista un horario de salida del Bus, es nesesario colocar la hora de partida del Bus, por defecto sistema trae un solo horario 8:AM, para agreagr mas horarios, se tine que ingresar a configuracion global situado en el menú principal.</p>
+<h2>Selecionar Bus</h2>
+&nbsp;&nbsp;<img src="images/seleccionar_bus.png" />
+<br /><br />
+<p>Podemos seleccionar un bus, utilizando su número de identificacón, el bus seleccionado tiene que ser el que realizara el viaje y corresponder con el horario seleccionado anteriormente.</p>
+<p>El sistema por defecto trae instalado un bus 3012, para agreagar mas buses ingresa a gestor de buses, en el menú principal.</p>
+<h2>Seleccionar Fecha</h2>
+&nbsp;&nbsp;<img src="images/seleccionar_fecha.png" />
+<br /><br />
+<p>Podemos seleccionar la fecha de viaje del bus seleccionado anteriormente, al presionar en el icono del calendario , se desplegara un pequeño calendario en donde seleccionaremos la fecha en el que el bus realizara el viaje.</p>
+<p>Si el bus viajara hoy seleccionamos la fecha de hoy, si se desea hacer una reserva de un asiento para una fecha diferente esto es posible podemos adelantarnos en el calendario fijar una fecha y efectuar la reserva, cuando llege la fecha se podra confirmar la reserva.</p>
+<h2>Aplicar Cambios</h2>
+&nbsp;&nbsp;<img src="images/aplicar_cambios.png" />
+<br /><br />
+<p>Una vez seleccinado la hora, bus y la fecha presionamos el botón Aplicar Cambios  el sistema aplicara la nueva configuración.</p>
+<p>Es nesesario configurar este panel para cada bus y para cada día que se realiza la venta, ademas debemos verificar esta configuración con la Barra de Información Bus vista más arriba.</p>
+<h2><a name="bus_interactivo">Bus Interactivo</a></h2>
+&nbsp;&nbsp;&nbsp;<img src="images/bus_interactivo.png" />
+<br /><br />
+<p>El bus interactivo nos permite realizar la venta y reserva de asientos en el bus, es facil de utilizar solo tenemos que hacer clic en el asiento que deseamos vender, al hacer clic nos aparece el formulario de cliente, llenamos la información del cliente y procedemos a guardar, se imprime el boleto.</p>
+<p>Al momento de hacer clic en el asiento este cambiara su estado a procesando (color gris), dependiendo de la operación que realizada si vendemos cambiara a (color rojo), si realizamos una reserva cambiara a un (color verde).</p>
+<p>Podemos abrir viros formularios a la vez esto en caso de una venta familiar ó de un grupo numeros de pasajeros solo hacemos clic en los asientos y minimizamos las ventanas de formulario de cliente y luego llenamos una a una con la finalidad de que esos asientos no sean vendidos mietras se llenan los formularios.</p>
+<h2><a name="informacion_de_asiento">Información de Asiento</a></h2>
+&nbsp;&nbsp;<img src="images/informcion_asiento.png" /><img src="images/informcion_asiento_1.png" />
+<br /><br />
+<p>Estos muestran informción sobre el destino del ocupante del asiento, si el asiento no tine nungun ocupante mostrara que esta libre.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end .content --></div>
+  <!-- end .container --></div>
+</body>
+</html>

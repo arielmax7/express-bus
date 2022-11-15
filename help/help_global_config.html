@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ayuda configuración Global | Express Bus</title>
+<link rel="shortcut icon" href="../main_output/favicon.ico">
+<link href="css/helpstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+    <h1>Ayuda Configuración Global</h1>
+    <h4>Contenido:</h4>
+    <ol>
+    <li><a href="#vista_general">Vista General</a></li>
+    <li><a href="#barra_de_menus">Barra de Menús</a></li>
+    <li><a href="#barra_de_informacion_usuario">Barra de Información Usuario</a></li>
+    <li><a href="#barra_de_herramientas">Barra de Herramientas</a></li>
+    <li><a href="#selector_de_pagina">Selector de Página</a></li>
+    <li><a href="#panel_del_sitio">Panel del Sitio</a></li>
+    <li><a href="#panel_comercial">Panel Comercial</a></li>
+    <li><a href="#panel_del_sistema">Panel del sistema</a></li>
+    </ol>
+    <br /><br />
+    <a name="vista_general"><h2>Vista General</h2></a>
+    &nbsp;&nbsp;<img src="images/diagram_global_config.png" />
+    <br /><br />
+    <a name="barra_de_menus"><h2>Barra de Menús</h2></a>
+    &nbsp;&nbsp;<img src="images/barra_de_menus_1.png" />
+    <br /><br />
+    <p>La barra de menús nos permite tener un acceso direccto un sector del sistema, permite una mejor navegación por el sistema.</p>
+    <p>La barra de menús varia en base al tipo de usuario logeado (niveles), si ingresa el super admin tendra mayores opciones en la barra de menús, adiferencia de un  usuario de nivel bajo solo vera la barra de menús relacionado con el cargo que este ocupa.</p>
+    <a name="barra_de_informacion_usuario"><h2>Barra de Información Usuario</h2></a>
+    &nbsp;&nbsp;<img src="images/barra_de_inf_usuario.png" />
+    <br /><br />
+    <p>La barra de información usuario nos muestra la información del usuario Logeado, también nos permite tener acceso directo a mensajesprovenientes de otros usuarios del sistema, podemos finalizar la aplicación de forma segura haciendo clic en Finalizar.</p>
+    <a name="barra_de_herramientas"><h2>Barra de Herramientas</h2></a>
+    
+    &nbsp;&nbsp;<img src="images/barra_configuracion_global.png" /> <br /><br />
+<p>Esta el la barra de herramientas de configuración global, cada botón  nos permite ejecutar una acción en concreto, a continuación explicamos el funcionamiento de cada botón.</p>
+   <h2><img src="images/aplicar.png" align="middle">&nbsp;&nbsp;Guardar</h2>
+    
+    <br />
+<p>Este botón nos permite guardar los cambios sin salir de la ventana.</p>
+      <h2><img src="images/save.png" align="middle">&nbsp;&nbsp;Guardar & Cerrar</h2>
+     <br />
+<p>Este botón nos permite guardar los cambios y nos redirecciona al menú principal.</p>
+<h2><img src="images/desactivar.png" align="middle" />&nbsp;&nbsp;Cancelar</h2>
+<p>Este botón nos permite salir de configuración global y redirigirnos al menú principal.</p>
+<a name="selector_de_pagina"><h2>Selector de Página</h2></a>
+&nbsp;&nbsp;<img src="images/selector_de_pagina.png" />
+<p>El selector de página nos permite cambiar de página, pudiendo cambiar de la página general a la página de Logs, Logs nos muestra una lista con todos los eventos importantes registrados del sitema esto para tener un mayor control sobre las actividades que realizan los usuarios en el sistema.</p>
+&nbsp;&nbsp;<img src="images/logs.png" />
+<a name="panel_del_sitio"><h2>Panel del Sitio</h2></a>
+&nbsp;&nbsp;<img src="images/panel_del_sitio.png" />
+<p>El panel del sitio nos permite realizar configuraciones que afectaran al sistema en general, todos los campos marcados con * son obligatorios, a continuación explicamos las configuraciones:</p>
+<p><b>En el campo Empresa *</b> colocamos el nombre de la empresa.</p>
+<p><b>En la opción Sitio desactivado</b> esta es una opción muy importante del sistema el cual permite activar el funcionamiento dl sistema o desactivarlo, esta opción es utilizada cuando se efectuan correcciónes, mantenimiento del sitema en general, al activar la opción "Si" ningún usuario podra ingresar al sistema, solo podra ingresar el super administrador, el sistema ingresara a modo prueba de fallos.</p>
+<p><b>En el campo Mensaje para el sitio web desactivado</b> colocamos un mensaje que aparecera al usuario cuando ingrese al sistema.</p>
+
+<p><b>En la opción Plantilla de impresión Boletos</b> nos permite seleccionar una plantilla de impresión para imprimir los boletos, deacuerdo al diseño de los boletos, por defecto express bus trae una sola plantilla de impresión, si la empresa posee otro modélo de impresión, sera necesario crear una nueva plantilla e instalarlo en el gestor de de instalación esto en el menú principal.</p>
+<p>si la empresa posee otro modélo de impresión, sera necesario crear una nueva plantilla e instalarlo en el gestor de de instalación esto en el menú principal.</p>
+<a name="panel_comercial"><h2>Panel comercial</h2></a>
+&nbsp;&nbsp;<img src="images/panel_comercial.png" />
+<p>Panel comercial nos permite restablecer o resetear los valores del registro comerical, tenga precaución al utilizar estas opciones ya que el cambio es irreversible.</p>
+<p>Podemos restablecer el registro de boletos.</p>
+<p>Para efectuar el cambios primero seleccionamos la opción y luego presionamos Guardar o Guardar & Cerrar.</p>
+<a name="panel_del_sistema"><h2>Panel del sistema</h2></a>
+&nbsp;&nbsp;<img src="images/panel_del_sistema.png" />
+<p>El panel del sistem nos permite restablecer o resetear los valores del sistema, tenga precaución al utilizar estas opciones el cambio es ireversible.</p>
+<p>La opción resetar sistema, restablece el sistema al estado inicial del instalación de Express buss se borrara toda la información, del sistema. solo quedara como unico usuario el super administrador.</p>
+<p>Resetear log nos permite resetear todo el registro de logs almacenadosesto solo afecta a logs.</p>
+
+<br />
+
+
+
+
+<!-- end .content --></div>
+  <!-- end .container --></div>
+</body>
+</html>

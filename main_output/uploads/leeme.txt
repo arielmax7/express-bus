@@ -1,0 +1,2 @@
+Este es el directorio en donde se almacena todos los archivos que los usuarios envien atraves del gestor de mensajes.
+Este direcctorio debe tener permisos de escritura.

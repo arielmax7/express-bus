@@ -1,0 +1,20 @@
+INSTRUCCIONES PARA LA INSTALACION MANUAL DE EXPRESS BUS
+
+1.- PASO 1
+Debera subir dotos los archivos la aplicación a su hosting, localhost o vps menos la carpeta install.
+
+2.- PASO 2
+Debe crear una base de datos en su servidor y asignar un usuario y contraseña el usuario debe tener permiso a todas las operaciones.
+
+3.- PASO 3
+Ingrese a phpmyadmin e ingrese a la base de datos creada anteriormente e importe la base de datos del sistema express bus esta la encontrara
+en la carpeta install/sql/ express_bus.sql
+
+4.- PASO 4
+Ingrese a la carpeta includes ahi encontrara un archivo db_system_example.php debe abrirlo con un editor de código tambien fuciona con bloc de notas
+una vez abierto debera ingresar los datos de conexión a su base de datos debera modificar las lineas 11,13,15 y 17 guarde el archivo, y por último debe renombrar el archivo
+a db_system.php
+
+4.- PASO 
+Si todo ha ido bién ya podra ingresar al sistema el usuario por defecto es: admin  y la contraseña es: 123
+  

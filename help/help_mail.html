@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Ayuda Gestor de Mensaje | Express Bus</title>
+<link rel="shortcut icon" href="../main_output/favicon.ico">
+<link href="css/helpstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="content">
+    <h1>Ayuda Gestor de Mensajes</h1>
+     <h4>Contenido:</h4>
+     <ol>
+    <li><a href="#vista_general">Vista General</a></li>
+    <li><a href="#barra_de_menus">Barra de Menús</a></li>
+    <li><a href="#barra_de_informacion_usuario">Barra de Información Usuario</a></li>
+    <li><a href="#barra_de_herramientas">Barra de Herramientas</a></li>
+    <li><a href="#paginacion">Paginación</a></li>
+    <li><a href="#filtro">Filtro</a></li>
+    <li><a href="#bandeja_de_entrada">Bandeja de Entrada</a></li>
+    <li><a href="#registros">Actualizar Registros</a></li>    
+    </ol>
+     
+     
+     
+    <a name="vista_general"><h2>Vista General</h2></a>
+    &nbsp;&nbsp;<img src="images/diagram_mail.png" />
+        <br /><br />
+    <p>Gestor de mensajes nos permiten enviar, recibir  mensajes y archivos de los usuarios del sistema.</p>
+     
+    <a name="barra_de_menus"><h2>Barra de Menús</h2></a>
+    &nbsp;&nbsp;<img src="images/barra_de_menus_1.png" />
+    <br /><br />
+    <p>La barra de menús nos permite tener un acceso direccto un sector del sistema, permite una mejor navegación por el sistema.</p>
+    <p>La barra de menús varia en base al tipo de usuario logeado (niveles), si ingresa el super admin tendra mayores opciones en la barra de menús, adiferencia de un  usuario de nivel bajo solo vera la barra de menús relacionado con el cargo que este ocupa.</p>
+    <a name="barra_de_informacion_usuario"><h2>Barra de Información Usuario</h2></a>
+    &nbsp;&nbsp;<img src="images/barra_de_inf_usuario2.png" />
+    <br /><br />
+    <p>La barra de información usuario nos muestra la información del usuario Logeado, también nos permite tener acceso directo al gestor de mensajes provenientes de otros usuarios del sistema, podemos finalizar la aplicación de forma segura haciendo clic en Finalizar.</p>
+     <a name="barra_de_herramientas"><h2>Barra de Herramientas</h2></a>
+     &nbsp;&nbsp;<img src="images/barra_de_h_mail.png" />
+     <br /></div>
+    <p>Esta el la barra de herramientas del gestor de mensajes, cada botón  nos permite ejecutar una acción en concreto, a continuación explicamos el funcionamiento de cada botón.</p>
+     <h2><img src="images/actualizar.png" align="middle">&nbsp;&nbsp;Actualizar</h2>
+    <br />
+<p>Este botón nos permite actualizar la página de forma manual.</p>
+    <p>Puede ser utilizado para refrescar la bandeja de entrada, permitiendo visualizar nuevos mensajes recibidos.</p>
+    <h2><img src="images/new.png" align="middle" />&nbsp;&nbsp;Nuevo</h2>
+    <br />
+    <p>Este botón nos permite enviar un nuevo mensaje a un usuario del sistema, al presionar se abrira una ventana con un pequeño formulario, en donde indicaremos el usuario a quien enviaremos el mensaje , el asunto del mensaje, y el mensaje.</p>
+    
+    <h2><img src="images/new_archive.png"  align="middle" />&nbsp;&nbsp;Enviar Archivo</h2>
+    <br />
+    <p>Este botón nos permite enviar un archivo a un usuario del sistema, al presionar el botón se abrira una ventana con un pequeño formulario, en donde indicamos el usuario a quien enviaremos el archivo, el asunto, y una opcion que nos permite explorar nuestra pc y seleccionar el archivo. </p>
+    <p>Las extensiones de archivos permitidas son: .pdf , .jpeg, .png, .zip este no debera exeder los 5MB de tamaño máximo, tampoco el nombre del archivo debe contener caracteres extraños. </p>
+    
+    <h2><img src="images/confirmar.png"  align="middle" />&nbsp;&nbsp;Marcar Como Leido</h2>
+    <br />
+    <p>Este botón nos permite cambiar el estado de un mensaje no leido en leido. para utilizar este botón primero debes de seleccionar un mensaje de la lista y luego presionar este botón.</p>
+    <h2><img src="images/bloquear.png" align="middle" />&nbsp;&nbsp;Marcar Como no Leído</h2>
+    <br />
+    <p>Este botón nos permite cambiar el estado de un mensaje leído en no leído. para utilizar este botón primero debes de selleccionar un mensaje de la lista y luego presionar este botón.</p>
+    <h2><img src="images/papelera.png" align="middle" />&nbsp;&nbsp;Papelera</h2>
+    <br />
+    <p>Este botón nos permite envíar a la papelera un mensaje o archivo seleccionado. Al efectuar esta acción ya no podremos visualizar el mensaje en la bandeja de entrada, para poder ver todos los mensajes que se encuentran en la papelera, tendremos que mostrar utilizando el filtro ver <a href="#vista_general">vista general</a>.</p>
+    <h2><img src="images/eliminar.png" align="middle" />&nbsp;&nbsp;Eliminar</h2>
+    <br />
+    <p>Este botón nos permite eliminar de forma permanente un mensaje o un archivo seleccionado  eliminandolo del sitema. utiliza esto a menos que estes realmente seguro de eliminar.</p>
+ 
+ 
+ <a name="paginacion"><h2>Paginación</h2></a>
+ &nbsp;&nbsp;<img src="images/paginacion_mail.png" />
+ <br /><br />
+ <p>Esta opción nos permite seleccionar de la lista desplegable el número de resgistros o mails a mostrar por página. el número al lado del botón Mostrar nos indica el número de registros actuales a mostrar.</p>
+ <a name="filtro"><h2>Filtro</h2></a>
+ &nbsp;&nbsp;<img src="images/filtro_mail.png" />
+ <br /><br />
+ <p>Fitro nos permite filtrar los mensajes por estado, podemos ver los mensajes leidos, no leidos, de la papelera o todos.</p>
+ <p>Muy util cuando existen muchos mensajes y solo quemremos ver los no leidos por ejemplo u otro estado.</p>
+ <a name="bandeja_de_entrada"><h2>Bandeja de Entrada</h2></a>
+ &nbsp;&nbsp;<img src="images/bandeja.png" />
+ <br /><br />   
+ <p>La bandeja de entrada nos muestra todos los mensajes que tenemos, por defecto nos muestra los mensajes nuevos y los ya leidos.</p>
+ <p>Al utilizar el filtro la bandeja nos muestra deacuerdo al filtro colocado.</p>
+ <p>Para Abrir un mensaje solo hacemos clic en el icono del sobre o en el remitente.</p> 
+ &nbsp;&nbsp;<img src="images/abrir_mensaje.png" />
+ <br />
+ <a name="registros"><h2>Actualizar Registros</h2></a>  
+ &nbsp;&nbsp;<img src="images/mostrar.png" />
+ <br /><br />
+ <p>Este botón nos permite actualizar la bandeja de entrada, generalmente es utilizado cuando se utiliza el filtro y se desea volver al estado inicial.</p> 
+ <br />  
+    
+    
+    
+<!-- end .content --></div>
+  <!-- end .container --></div>
+</body>
+</html>

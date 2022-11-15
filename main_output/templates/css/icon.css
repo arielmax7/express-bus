@@ -1,0 +1,40 @@
+/** menu icons **/
+.icon-16-article 		{ background-image: url(../images/menu/icon-16-article.png); } 
+.icon-16-category 	{ background-image: url(../images/menu/icon-16-category.png); } 
+.icon-16-component	{ background-image: url(../images/menu/icon-16-component.png); } 
+.icon-16-cpanel 		{ background-image: url(../images/menu/icon-16-cpanel.png); } 
+.icon-16-info 			{ background-image: url(../images/menu/icon-16-info.png); } 
+.icon-16-logout 		{ background-image: url(../images/menu/icon-16-logout.png);} 
+.icon-16-messages 	{ background-image: url(../images/menu/icon-16-messages.png); } 
+.icon-16-module 		{ background-image: url(../images/menu/icon-16-module.png); } 
+.icon-16-user 			{ background-image: url(../images/menu/icon-16-user.png); } 
+
+/** toolbar icons **/
+
+.icon-32-delete 		{ background-image: url(../images/toolbar/icon-32-delete.png); } 
+.icon-32-help 			{ background-image: url(../images/toolbar/icon-32-help.png); } 
+.icon-32-cancel 		{ background-image: url(../images/toolbar/icon-32-cancel.png); } 
+.icon-32-config 		{ background-image: url(../images/toolbar/icon-32-config.png); } 
+.icon-32-apply 		{ background-image: url(../images/toolbar/icon-32-apply.png); } 
+.icon-32-save 			{ background-image: url(../images/toolbar/icon-32-save.png); } 
+.icon-32-edit 			{ background-image: url(../images/toolbar/icon-32-edit.png); } 
+.icon-32-copy 			{ background-image: url(../images/toolbar/icon-32-copy.png); } 
+.icon-32-new 			{ background-image: url(../images/toolbar/icon-32-new.png); } 
+.icon-32-assign 		{ background-image: url(../images/toolbar/icon-32-publish.png); } 
+.icon-32-unpublish 	{ background-image: url(../images/toolbar/icon-32-unpublish.png);} 
+.icon-32-restore		{ background-image: url(../images/toolbar/icon-32-revert.png); } 
+.icon-32-trash 		{ background-image: url(../images/toolbar/icon-32-trash.png); } 
+.icon-32-archive 		{ background-image: url(../images/toolbar/icon-32-archive.png); } 
+.icon-32-unarchive 	{ background-image: url(../images/toolbar/icon-32-unarchive.png); } 
+
+/** header icons **/
+.icon-48-generic 		{ background-image: url(../images/header/icon-48-generic.png); } 
+.icon-48-config 		{ background-image: url(../images/header/icon-48-config.png); } 
+.icon-48-module 		{ background-image: url(../images/header/icon-48-module.png); } 
+.icon-48-menu 			{ background-image: url(../images/header/icon-48-menu.png); } 
+.icon-48-user	 		{ background-image: url(../images/header/icon-48-user.png); } 
+.icon-48-inbox 		{ background-image: url(../images/header/icon-48-inbox.png); } 
+.icon-48-plugin 	{ background-image: url(../images/header/icon-48-plugin.png); } 
+.icon-48-addedit 		{ background-image: url(../images/header/icon-48-article-add.png); } 
+.icon-48-article 		{ background-image: url(../images/header/icon-48-article.png); } 
+.icon-48-systeminfo 	{ background-image: url(../images/header/icon-48-info.png); } 

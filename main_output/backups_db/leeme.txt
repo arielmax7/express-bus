@@ -1,0 +1,2 @@
+Este es el directorio en donde se guardan las copias de seguridad de la base de datos.
+esta direcctorio debe tener permisos de escritura CHMOD.

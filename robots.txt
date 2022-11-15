@@ -1,0 +1,9 @@
+User-agent: * 
+Disallow: /core_system/
+Disallow: /main_output/
+Disallow: /includes/
+Disallow: /help/
+Disallow: /includes/
+Disallow: /install/
+
+ 

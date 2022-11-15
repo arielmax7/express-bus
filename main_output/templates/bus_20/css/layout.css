@@ -1,0 +1,414 @@
+
+h3
+{
+        font-size:1.1em;
+        font-weight:bold;
+        margin:10px 0;
+}
+
+h4
+{
+        font-size:1em;
+}
+
+fieldset
+{
+        margin:10px 0 ;
+        padding:15px 0px;
+        border:solid 1px
+}
+
+p
+{
+        line-height:1.7em;
+        margin:8px 0;
+}
+
+em
+{
+        font-weight:bold;
+}
+
+/* ##########################  general  ########################### */
+#all
+{
+    font-size: 0.8em;
+}
+
+
+/* ##########################  fontsize  ########################### */
+
+#fontsize
+{
+    padding:0;
+    margin:0 20px 0 1px;
+    text-align:right;
+    margin-bottom:0px;
+    float:none;
+
+
+}
+
+#fontsize h3
+{
+    padding-right:0;
+    font-weight:normal;
+    display:inline;
+    font-size:1em;
+
+        margin:0
+}
+
+#fontsize p
+{
+    margin:0 0 0 2px;
+        padding:0;
+    display:inline;
+    font-size:1em;
+
+
+}
+
+#fontsize p a
+{
+    margin:0 2px;
+    display:inline;
+    padding:0px 5px;
+}
+
+
+/* ##########################  main  ########################### */
+
+/* ++++++++++++++  main general  ++++++++++++++ */
+
+#main h1
+{
+
+        padding: 5px;
+        font-size:1.4em;
+        line-height:1.19em;
+        font-weight:normal;
+        margin:0 -5px 10px -5px
+
+}
+
+#main h2
+{
+        font-size:1.6em;
+        font-weight:normal;
+        margin-bottom:10px;
+        padding:3px 0px;
+}
+
+#main h2 a
+{
+        text-decoration:none;
+}
+
+#main h3
+{
+        margin:20px 0 10px;
+}
+
+.item
+{
+        padding:0px 5px 10px 5px;
+        display:block
+}
+
+.item h2
+{
+        margin:0 0px 10px 0px
+}
+
+.item-page
+{
+        padding:0 5px;
+        display:block;
+        overflow:hidden
+}
+
+
+/*  ####################   forms   #####################  */
+
+#member-registration
+{
+        padding:0 5px
+}
+#member-registration fieldset
+{
+border:solid 1px #ddd
+}
+
+form fieldset dt
+{
+        clear:left ;
+        float:left;
+        width:12em;
+        padding:3px 0
+}
+
+form fieldset dd
+{
+        float:left;
+        padding:3px 0
+}
+
+
+
+/* ++++++++++++++  edit  ++++++++++++++ */
+legend
+{
+        padding:3px 5px;
+}
+
+form#adminForm
+{
+
+}
+
+.edit form#adminForm fieldset
+{
+        padding:20px 15px;
+        margin:10px 0 15px 0;
+}
+
+.formelm
+{
+        margin:5px 0
+}
+
+
+.formelm label
+{
+        width:13em;
+        display:inline-block;
+        vertical-align:top;
+}
+
+form#adminForm .formelm-area
+{
+        padding:5px 0
+}
+
+form#adminForm .formelm-area label
+{
+        vertical-align:top;
+        display:inline-block;
+        width:7.9em
+}
+
+.formelm-buttons
+{
+        text-align:right;
+        margin-bottom:10px
+}
+
+.button2-left
+{
+
+}
+
+a.modal-button,
+.button2-left .blank a,
+.button2-left a,
+.button2-left div.readmore a
+{background:#eee;
+padding:4px !important;
+margin:0 !important;
+line-height:1.2em; border:solid 1px #ddd;
+font-weight:bold; text-decoration:none;
+margin-top:10px !important}
+
+/* ++++++++++++++  tooltip  ++++++++++++++ */
+
+
+.tip
+{
+        font-size:0.8em;
+        text-align:left;
+        padding:3px;
+        max-width:400px
+}
+
+.tip-title
+{
+        font-weight:bold;
+}
+
+/* ++++++++++++++  login  ++++++++++++++ */
+
+#login-form
+{
+        padding-top:5px
+}
+
+#login-form fieldset
+{
+        padding:0px;
+  
+}
+
+#login-form .inputbox
+{
+        padding:2px
+}
+
+#login-form fieldset.input
+{
+        padding:10px 0 0 0;
+        margin:0px 0 10px 5px
+}
+
+#login-form label
+{
+        margin-right:10px;
+        width:8.4em;
+        display:block;
+        float:left
+}
+
+#form-login-remember label
+{
+	float:none;
+	width:auto;
+	display:inline
+}
+
+.logout-button
+{
+	margin-top:10px
+}
+
+input.button,
+button.button,
+button.validate
+{
+        cursor:pointer;
+        padding:3px 5px 3px 7px ;
+        font-weight:bold;
+        line-height:1.2em;
+        font-family:arial;
+}
+
+#modlgn-username,
+#modlgn-passwd
+{
+        width:9em
+}
+
+.module_content #form-login-username label,
+.module_content #form-login-password label
+{
+            float:left;
+            width:5.2em
+}
+
+.login-fields
+{
+        margin:10px 0
+}
+
+.login-fields label
+{
+        float:left;
+        width:9em
+}
+
+.login-description img,
+.logout-description img
+{
+        float:left;
+        margin-right:20px
+}
+
+.login-description,
+.logout-description
+{
+        overflow:hidden;
+                padding-left:5px;
+                margin:20px 0 10px 0
+}
+
+.logout-description
+{
+        margin-bottom:20px
+}
+
+
+/* mailto window */
+
+
+#mailto-window 
+{
+	background:#f5f5f5;
+	padding:15px;
+	border:solid 1px #ddd;
+	position:relative
+}
+#mailto-window label
+{
+	width:10em
+}
+
+.mailto-close
+{
+	position:absolute; 
+	right:0; 
+	top:5px; 
+	background:none;
+
+
+	
+	
+}
+
+
+.mailto-close a 
+{
+background:#f5f5f5 url(../images/close.png) no-repeat !important;
+min-width:25px; 
+display:block;
+min-height:25px;
+overflow:visible
+}
+
+.mailto-close a  span
+{
+	position:absolute;
+	left:-3000px;
+	top:-3000px;
+	display:inline
+
+}
+#mailto-window  .inputbox
+{
+	background:url("../images/content_bg.gif") repeat-x scroll 0 0 #FFFFFF;
+	border:1px solid #ccc;
+	padding:3px;
+}
+
+#mailto-window p
+{
+	margin-top:20px
+}
+
+#mailto-window button
+{
+	margin:0 5px 0 0
+}
+
+
+span.spacer > span.text label {
+	white-space: nowrap;
+	font-weight: bold;
+	color: #666;
+}
+.red {
+	font-weight: bold;
+	color: #c00;
+}
+
+.star {
+	color:#cc0000;
+}
